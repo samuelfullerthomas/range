@@ -1,0 +1,21 @@
+{
+  "name": "range",
+  "version": "1.0.0",
+  "description": "",
+  "main": "range.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": { 
+    "bail": true,
+    "verbose": true
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest-cli": "^16.0.1"
+  },
+  "standard": {
+    "globals": ["it, beforeEach, describe"]
+  }
+}
